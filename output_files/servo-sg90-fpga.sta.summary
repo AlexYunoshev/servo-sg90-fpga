@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'frequency_controller:l1|frequency_manager:l1|temporal'
+Slack : -3.942
+TNS   : -113.145
+
+Type  : Slow Model Setup 'frequency_controller:l1|frequency_manager:l2|temporal'
+Slack : -1.678
+TNS   : -8.721
+
+Type  : Slow Model Setup 'clk'
+Slack : -1.599
+TNS   : -17.837
+
+Type  : Slow Model Setup 'frequency_controller:l1|frequency_manager:l3|temporal'
+Slack : -0.535
+TNS   : -4.936
+
+Type  : Slow Model Hold 'clk'
+Slack : -2.209
+TNS   : -6.610
+
+Type  : Slow Model Hold 'frequency_controller:l1|frequency_manager:l1|temporal'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'frequency_controller:l1|frequency_manager:l3|temporal'
+Slack : 0.566
+TNS   : 0.000
+
+Type  : Slow Model Hold 'frequency_controller:l1|frequency_manager:l2|temporal'
+Slack : 0.803
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'clk'
+Slack : -1.380
+TNS   : -20.380
+
+Type  : Slow Model Minimum Pulse Width 'frequency_controller:l1|frequency_manager:l1|temporal'
+Slack : -0.500
+TNS   : -33.000
+
+Type  : Slow Model Minimum Pulse Width 'frequency_controller:l1|frequency_manager:l3|temporal'
+Slack : -0.500
+TNS   : -16.000
+
+Type  : Slow Model Minimum Pulse Width 'frequency_controller:l1|frequency_manager:l2|temporal'
+Slack : -0.500
+TNS   : -11.000
+
+Type  : Fast Model Setup 'frequency_controller:l1|frequency_manager:l1|temporal'
+Slack : -1.339
+TNS   : -33.641
+
+Type  : Fast Model Setup 'frequency_controller:l1|frequency_manager:l2|temporal'
+Slack : -0.235
+TNS   : -0.399
+
+Type  : Fast Model Setup 'clk'
+Slack : -0.196
+TNS   : -0.527
+
+Type  : Fast Model Setup 'frequency_controller:l1|frequency_manager:l3|temporal'
+Slack : 0.266
+TNS   : 0.000
+
+Type  : Fast Model Hold 'clk'
+Slack : -1.346
+TNS   : -4.024
+
+Type  : Fast Model Hold 'frequency_controller:l1|frequency_manager:l1|temporal'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'frequency_controller:l1|frequency_manager:l3|temporal'
+Slack : 0.266
+TNS   : 0.000
+
+Type  : Fast Model Hold 'frequency_controller:l1|frequency_manager:l2|temporal'
+Slack : 0.358
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'clk'
+Slack : -1.380
+TNS   : -20.380
+
+Type  : Fast Model Minimum Pulse Width 'frequency_controller:l1|frequency_manager:l1|temporal'
+Slack : -0.500
+TNS   : -33.000
+
+Type  : Fast Model Minimum Pulse Width 'frequency_controller:l1|frequency_manager:l3|temporal'
+Slack : -0.500
+TNS   : -16.000
+
+Type  : Fast Model Minimum Pulse Width 'frequency_controller:l1|frequency_manager:l2|temporal'
+Slack : -0.500
+TNS   : -11.000
+
+------------------------------------------------------------
